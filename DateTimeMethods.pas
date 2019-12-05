@@ -16,6 +16,9 @@ begin
 end;
 
 function DaysInYear(year: integer): integer := 0;
+begin
+  result := 365;
+end;
 
 function DaysInYearRange(year1, year2: integer): integer := 0;
 
