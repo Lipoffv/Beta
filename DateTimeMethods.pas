@@ -2,10 +2,13 @@
 
 function IsLeapYear(year: integer): boolean;
 begin
-  result := year mod 4 = 0;
+  result := year mod 400 = 0;
 end;
 
 function DaysInMonth(month, year: integer): integer := 0;
+begin
+//Пфф. До дедлайна напишу...  
+end;
 
 function LaterInYear(p1, p2: DateTime): DateTime := p1;
 
