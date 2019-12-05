@@ -21,6 +21,9 @@ begin
 end;
 
 function DaysInYearRange(year1, year2: integer): integer := 0;
+begin
+  //Я устал писать комментарии.
+end;
 
 function SecondsInHours(hours: integer): integer := 0;
 
