@@ -1,6 +1,3 @@
-﻿uses DateTimeTests;
-uses DateTimeMethods;
+﻿begin
 
-begin
-  
 end.
